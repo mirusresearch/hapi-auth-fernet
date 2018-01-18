@@ -23,6 +23,12 @@ let authConfig = {
 await server.register(auth)
 await server.auth.strategy('simple', 'fernet', authConfig)
 await server.auth.default('simple')
+
+server.route({
+    method: 'GET',
+    path: '/',
+    handler: () => 'hello fernet auth'
+})
 ```
 
 
