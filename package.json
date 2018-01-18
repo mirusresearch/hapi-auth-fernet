@@ -1,0 +1,31 @@
+{
+  "name": "hapi-auth-fernet",
+  "version": "1.0.0",
+  "description": "Authentication using a fernet secret and a token",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "ava test/"
+  },
+  "keywords": [
+    "hapi",
+    "plugin",
+    "auth",
+    "fernet"
+  ],
+  "author": "alec@mirusresearch.com",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.9.x"
+  },
+  "dependencies": {
+    "boom": "^7.1.1",
+    "fernet": "^0.3.1"
+  },
+  "peerDependencies": {
+    "hapi": ">=17.x.x"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "hapi": "^17.2.0"
+  }
+}
