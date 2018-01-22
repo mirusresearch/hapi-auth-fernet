@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Authentication using a fernet secret and a token",
   "main": "lib/index.js",
+  "url": "https://github.com/mirusresearch/hapi-auth-fernet",
+  "email": "alec@mirusresearch.com",
   "scripts": {
     "test": "ava test/"
   },
@@ -13,7 +15,7 @@
     "fernet"
   ],
   "author": "alec@mirusresearch.com",
-  "license": "ISC",
+  "license": "MIT",
   "engines": {
     "node": ">=8.9.x"
   },
