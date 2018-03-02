@@ -16,6 +16,10 @@
   ],
   "author": "alec@mirusresearch.com",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mirusresearch/hapi-auth-fernet"
+  },
   "engines": {
     "node": ">=8.9.x"
   },
